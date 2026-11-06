@@ -48,6 +48,21 @@
     margin: 50px;
 }
 
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 32px;
+    margin: 20px;
+    width: 500px;
+    
+}
+
+.tiles .image-box img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
 footer{
     background-color: #34565a; 
 }
