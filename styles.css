@@ -52,7 +52,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr); 
     gap: 32px;
-    margin: 20px;
+    margin: 0px;
     width: 500px;
     
 }
@@ -80,4 +80,18 @@ header .image-box img {
     height: 400px;
     object-fit: cover;
     width: 100%;
+}
+
+.page-alignment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 50px;
+    align-items: start;
+}
+
+.font-specs {
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 7px;
 }
