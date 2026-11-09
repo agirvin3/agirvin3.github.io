@@ -95,3 +95,11 @@ header .image-box img {
     font-size: 30px;
     padding: 7px;
 }
+
+.experience-page {
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
