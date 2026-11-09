@@ -95,6 +95,11 @@ header .image-box img {
     font-size: 30px;
     padding: 7px;
 }
+.portfolio-font {
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .experience-page {
     max-width: 1500px;
